@@ -7,8 +7,8 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Mat_UV_Scaled
-  m_Shader: {fileID: 4800000, guid: 50dedcf89f20965449cac7ec42ca86de, type: 3}
+  m_Name: Mat_UV_SliderLerpTwoColorClamp
+  m_Shader: {fileID: 4800000, guid: 1e6481455377f2a47a79e52de8fc9dd1, type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
   m_ValidKeywords: []
@@ -29,7 +29,10 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
-    - _Scale: 1.51
-    m_Colors: []
+    - _ColorEnd: 0.746
+    - _ColorStart: 0.421
+    m_Colors:
+    - _ColorA: {r: 0.06666667, g: 1, b: 0, a: 1}
+    - _ColorB: {r: 0.019607844, g: 0, b: 1, a: 1}
   m_BuildTextureStacks: []
   m_AllowLocking: 1

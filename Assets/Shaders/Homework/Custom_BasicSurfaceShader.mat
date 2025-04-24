@@ -7,8 +7,8 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Mat_UV_Scaled
-  m_Shader: {fileID: 4800000, guid: 50dedcf89f20965449cac7ec42ca86de, type: 3}
+  m_Name: Custom_BasicSurfaceShader
+  m_Shader: {fileID: 4800000, guid: 0990149f01f6a4d48b1f605a03ddc9b1, type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
   m_ValidKeywords: []
@@ -23,13 +23,23 @@ Material:
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
-    - _MainTex:
+    - _BumpMap:
         m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 10307, guid: 0000000000000000f000000000000000, type: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
-    - _Scale: 1.51
-    m_Colors: []
+    - _Emission: 1
+    - _Glossiness: 0.407
+    - _Metallic: 0.986
+    - _Smoothness: 0.869
+    - _Specular: 0
+    m_Colors:
+    - _Color: {r: 0.06907192, g: 0.8509804, b: 0, a: 1}
+    - _ColorEmission: {r: 1, g: 0.39999998, b: 0.6, a: 1}
   m_BuildTextureStacks: []
   m_AllowLocking: 1
